@@ -12,7 +12,7 @@ def main():
                         help='Картин для выполнения стилизации')
     parser.add_argument('style', metavar='<style path>', help='Пример стиля в виде картины')
     parser.add_argument('--artwork', metavar='<path>',
-                        default='output/artwork.png',
+                        default='result.png',
                         help='Место для сохранения результата <path>.')
     parser.add_argument('--init_img', metavar='<path>', 
                         help=('Initialize artwork with image at <path> '
